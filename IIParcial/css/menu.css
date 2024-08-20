@@ -1,0 +1,31 @@
+﻿.vertical-menu {
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.vertical-menu a {
+    background-color: #cfe2f3; /* Azul pastel */
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;  
+}
+
+.vertical-menu a:hover {
+   background-color: #9fc5e8; /* Azul pastel más oscuro */
+}
+
+.vertical-menu a.active {
+   background-color: #6fa8dc; /* Azul pastel activo */
+   color: white;
+}
+
+div {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+body {
+    background-color: #f0f8ff; /* Azul claro */
+}
